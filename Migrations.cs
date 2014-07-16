@@ -9,6 +9,7 @@ namespace Commercan.GoogleAnalytics
 {
     public class Migrations : DataMigrationImpl
     {
+        
         public int Create() {
             SchemaBuilder.CreateTable("SettingsRecord",
                 table => table.Column<int>("Id", column => column.PrimaryKey().Identity())
