@@ -1,10 +1,12 @@
-﻿Name: Commercan.GoogleAnalytics
+﻿Name: Google Analytics
 AntiForgery: enabled
-Author: The Orchard Team
-Website: http://orchardproject.net
+Author: Jack Cheng
+Website: http://orchard.commercan.com
 Version: 1.0
 OrchardVersion: 1.0
 Description: Description for the module
 Features:
     Commercan.GoogleAnalytics:
-        Description: Description for feature Commercan.GoogleAnalytics.
+	    Name: Google Analytics
+		Category: Analytics
+        Description: Add Google Analytics to your website.
