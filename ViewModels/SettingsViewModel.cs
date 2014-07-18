@@ -7,6 +7,5 @@ namespace Commercan.GoogleAnalytics.ViewModels
         public bool Enable { get; set; }
         public bool UseUniversalTracking { get; set; }
         public string GoogleAnalyticsKey { get; set; }
-        public string DomainName { get; set; }
     }
 }

@@ -1,12 +1,13 @@
 ﻿using System.Web.Mvc;
 using Commercan.GoogleAnalytics.Services;
 using Orchard.Caching;
+using Orchard.Mvc.Filters;
 using Orchard.UI.Admin;
 using Orchard.UI.Resources;
 
 namespace Commercan.GoogleAnalytics.Filters
 {
-    public class GoogleAnalyticsFilter : IResultFilter {
+    public class GoogleAnalyticsFilter : FilterProvider, IResultFilter {
 
         private readonly IResourceManager _resourceManager;
         private readonly ICacheManager _cacheManager;
